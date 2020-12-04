@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unipam.MinhaApi.Dominio", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unipam.MinhaApi.Dados.Entity", "Unipam.MinhaApi.Dados.Entity\Unipam.MinhaApi.Dados.Entity.csproj", "{41200E71-D9AC-46A4-B428-652D433B841C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integracao", "Integracao", "{5515064D-B254-4C39-89BB-D35D63C00E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unipam.Integracao.Repositorios.Interfaces", "Unipam.Integracao.Repositorios.Interfaces\Unipam.Integracao.Repositorios.Interfaces.csproj", "{680CC9E6-AEA2-43C0-9339-81ABF074B6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unipam.Integracao.Repositorios.Entity", "Unipam.Integracao.Repositorios.Entity\Unipam.Integracao.Repositorios.Entity.csproj", "{96F225B7-AF0A-4D89-AC7F-472461D36B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unipam.MinhaApi.Repositorios.Entity", "Unipam.MinhaApi.Repositorios.Entity\Unipam.MinhaApi.Repositorios.Entity.csproj", "{3EE44755-131A-455D-BCAF-19FA938C7F55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +35,25 @@ Global
 		{41200E71-D9AC-46A4-B428-652D433B841C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41200E71-D9AC-46A4-B428-652D433B841C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41200E71-D9AC-46A4-B428-652D433B841C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680CC9E6-AEA2-43C0-9339-81ABF074B6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680CC9E6-AEA2-43C0-9339-81ABF074B6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680CC9E6-AEA2-43C0-9339-81ABF074B6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680CC9E6-AEA2-43C0-9339-81ABF074B6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F225B7-AF0A-4D89-AC7F-472461D36B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F225B7-AF0A-4D89-AC7F-472461D36B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F225B7-AF0A-4D89-AC7F-472461D36B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F225B7-AF0A-4D89-AC7F-472461D36B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE44755-131A-455D-BCAF-19FA938C7F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE44755-131A-455D-BCAF-19FA938C7F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE44755-131A-455D-BCAF-19FA938C7F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE44755-131A-455D-BCAF-19FA938C7F55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{680CC9E6-AEA2-43C0-9339-81ABF074B6CC} = {5515064D-B254-4C39-89BB-D35D63C00E7A}
+		{96F225B7-AF0A-4D89-AC7F-472461D36B7B} = {5515064D-B254-4C39-89BB-D35D63C00E7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F36CE112-49ED-4344-9DFF-B393323CA9BB}
